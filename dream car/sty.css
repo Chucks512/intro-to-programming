@@ -1,0 +1,34 @@
+#car {
+    font-family: Arial; /* selected font set*/
+}
+
+#body {
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    height: 100px;
+    background-color: brown;
+    text-align: center; /* places text at center of div*/
+}
+
+#backwheel {
+    position: absolute; /* position from top left of page*/
+    left: 10%; /* vertival position: 10% from left edge */
+    top: 130px; /* horizontal position: 130 pixels from top edge */
+    background-color: #ffffff; /* hexadecimal white colour chose for background */
+    border: 3px solid black; /* solid black colour chose for div border */
+    border-radius: 50%; /* 50% rounded edge to center of div... result: round */
+    width: 40px; /* 40 pixels wide */
+    height: 40px; /* height = width */
+}
+
+#frontwheel {
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
